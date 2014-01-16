@@ -21,6 +21,10 @@
 		000E3DDF187F8457007EA39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000E3DC1187F8457007EA39A /* UIKit.framework */; };
 		000E3DE7187F8457007EA39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000E3DE5187F8457007EA39A /* InfoPlist.strings */; };
 		000E3DE9187F8457007EA39A /* DarlingdarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E3DE8187F8457007EA39A /* DarlingdarTests.m */; };
+		00AAC07D18876C43003C867C /* Connection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AAC07C18876C43003C867C /* Connection.storyboard */; };
+		00AAC08018876C66003C867C /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAC07F18876C66003C867C /* ConnectionViewController.m */; };
+		00AAC08218876C91003C867C /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AAC08118876C91003C867C /* Calendar.storyboard */; };
+		00AAC08518876C9E003C867C /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAC08418876C9E003C867C /* CalendarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		000E3DE4187F8457007EA39A /* DarlingdarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DarlingdarTests-Info.plist"; sourceTree = "<group>"; };
 		000E3DE6187F8457007EA39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		000E3DE8187F8457007EA39A /* DarlingdarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarlingdarTests.m; sourceTree = "<group>"; };
+		00AAC07C18876C43003C867C /* Connection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Connection.storyboard; sourceTree = "<group>"; };
+		00AAC07E18876C66003C867C /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		00AAC07F18876C66003C867C /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		00AAC08118876C91003C867C /* Calendar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		00AAC08318876C9E003C867C /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		00AAC08418876C9E003C867C /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,8 @@
 		000E3DC3187F8457007EA39A /* Darlingdar */ = {
 			isa = PBXGroup;
 			children = (
+				00AAC10918878DB6003C867C /* Connection */,
+				00AAC10818878DAC003C867C /* Main */,
 				000E3DCC187F8457007EA39A /* AppDelegate.h */,
 				000E3DCD187F8457007EA39A /* AppDelegate.m */,
 				000E3DCF187F8457007EA39A /* Main.storyboard */,
@@ -119,6 +131,12 @@
 				000E3DD3187F8457007EA39A /* ViewController.m */,
 				000E3DD5187F8457007EA39A /* Images.xcassets */,
 				000E3DC4187F8457007EA39A /* Supporting Files */,
+				00AAC07C18876C43003C867C /* Connection.storyboard */,
+				00AAC07E18876C66003C867C /* ConnectionViewController.h */,
+				00AAC07F18876C66003C867C /* ConnectionViewController.m */,
+				00AAC08118876C91003C867C /* Calendar.storyboard */,
+				00AAC08318876C9E003C867C /* CalendarViewController.h */,
+				00AAC08418876C9E003C867C /* CalendarViewController.m */,
 			);
 			path = Darlingdar;
 			sourceTree = "<group>";
@@ -150,6 +168,20 @@
 				000E3DE5187F8457007EA39A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00AAC10818878DAC003C867C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		00AAC10918878DB6003C867C /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AAC07D18876C43003C867C /* Connection.storyboard in Resources */,
 				000E3DD6187F8457007EA39A /* Images.xcassets in Resources */,
 				000E3DC8187F8457007EA39A /* InfoPlist.strings in Resources */,
+				00AAC08218876C91003C867C /* Calendar.storyboard in Resources */,
 				000E3DD1187F8457007EA39A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AAC08018876C66003C867C /* ConnectionViewController.m in Sources */,
 				000E3DD4187F8457007EA39A /* ViewController.m in Sources */,
 				000E3DCE187F8457007EA39A /* AppDelegate.m in Sources */,
+				00AAC08518876C9E003C867C /* CalendarViewController.m in Sources */,
 				000E3DCA187F8457007EA39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +496,7 @@
 				000E3DEE187F8457007EA39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000E3DEF187F8457007EA39A /* Build configuration list for PBXNativeTarget "DarlingdarTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +505,7 @@
 				000E3DF1187F8457007EA39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
