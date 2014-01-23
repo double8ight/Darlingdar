@@ -16,35 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Darlingdar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKO-9T-img">
-                                <rect key="frame" x="78" y="129" width="164" height="72"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01_회원가입.png" translatesAutoresizingMaskIntoConstraints="NO" id="YKd-GD-hxp">
+                                <rect key="frame" x="-5" y="0.0" width="331" height="574"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="38"/>
-                                <color key="textColor" red="0.91372555494308472" green="0.31764706969261169" blue="0.49411767721176147" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mER-Os-Oqw">
-                                <rect key="frame" x="71" y="369" width="57" height="30"/>
+                                <rect key="frame" x="65" y="502" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="회원가입">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="pCO-mn-HdF" kind="push" id="P9B-nt-wkv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOq-Yp-F05">
-                                <rect key="frame" x="197" y="369" width="46" height="30"/>
+                                <rect key="frame" x="203" y="502" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="로그인">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="U7o-N1-CKp" kind="push" id="azk-WD-bKz"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qvo-s7-Elv">
-                                <rect key="frame" x="122" y="277" width="77" height="37"/>
+                                <rect key="frame" x="122" y="444" width="77" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="currentPageIndicatorTintColor" red="0.92549026012420654" green="0.64705884456634521" blue="0.73333334922790527" alpha="1" colorSpace="deviceRGB"/>
@@ -100,6 +101,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02_회원가입.png" translatesAutoresizingMaskIntoConstraints="NO" id="wgU-no-5Jj">
+                                <rect key="frame" x="-5" y="0.0" width="331" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -122,6 +127,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0c2-fU-RhA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047" y="44"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QfJ-C1-gfr">
+            <objects>
+                <viewController id="43Z-W9-KfF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SN0-F5-YlB"/>
+                        <viewControllerLayoutGuide type="bottom" id="6fE-4t-av6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nks-Eq-qZo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03_로그인.png" translatesAutoresizingMaskIntoConstraints="NO" id="txJ-iJ-JaP">
+                                <rect key="frame" x="-5" y="0.0" width="331" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NWy-L5-3eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1530" y="58"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tf9-W3-6O9">
@@ -148,6 +177,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03_로그인.png" translatesAutoresizingMaskIntoConstraints="NO" id="26Y-2x-3ZY">
+                                <rect key="frame" x="-5" y="-3" width="331" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -156,6 +189,314 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeU-UX-OtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="521" y="712"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kwp-Nh-VZy">
+            <objects>
+                <viewController id="qFO-bd-sO7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="seA-eK-oQJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="JkY-r0-Iyd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M1G-93-GJd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="07_메인.png" translatesAutoresizingMaskIntoConstraints="NO" id="8uU-pa-d1L">
+                                <rect key="frame" x="-5" y="0.0" width="331" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ve-dN-QIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="526" y="1397"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ou6-hh-oPN">
+            <objects>
+                <viewController id="5kw-kd-I4P" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11_사진촬영.png" id="2Rh-74-0x8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9uw-YW-wFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501" y="2117"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BK4-KD-Liy">
+            <objects>
+                <viewController id="TD2-jt-Tn2" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15_사진모아보기.png" id="p0m-Xe-Ivs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XlR-W4-5kb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514" y="2831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KfI-Ps-MRy">
+            <objects>
+                <viewController id="uyD-Zl-Fck" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="19_기간설정.png" id="mq2-HP-JnV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-02-NK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486" y="3583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0xI-wJ-gvQ">
+            <objects>
+                <viewController id="7ho-Ta-qyF" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="23_영상저장_시간선택.png" id="pYM-Tb-dhI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8j0-fg-cRw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="4299"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d3I-5B-wta">
+            <objects>
+                <viewController id="CNQ-bf-WWK" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="24_영상로딩중.png" id="Z9x-Uk-41d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gXc-R6-c9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="4295"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yem-SR-YZm">
+            <objects>
+                <viewController id="CfW-3a-ogn" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="25_완성및공유.png" id="gDg-5C-5gX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nfc-mJ-BVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1342" y="4287"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NBN-a7-yth">
+            <objects>
+                <viewController id="aqe-Cf-ePJ" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20_사진선택.png" id="uir-nN-Xea">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zug-um-zX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="3567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cfR-Bb-PJs">
+            <objects>
+                <viewController id="dpw-ah-zoI" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="21_영상저장.png" id="o8G-DA-e8d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KI3-9C-r8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="3559"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oGS-wU-zlj">
+            <objects>
+                <viewController id="HRx-Aw-Lub" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="22_영상저장_음악선택.png" id="MuL-ZP-njj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xCP-m5-tJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="3563"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aWn-mF-Ed7">
+            <objects>
+                <viewController id="bjt-tv-S7C" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="16_사진확대보기.png" id="NyT-AF-FsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Oc-Vs-7pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="2811"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VwN-tu-iAk">
+            <objects>
+                <viewController id="tfP-ee-7gC" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="17_사진앨범.png" id="Qip-86-U4b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wK0-dZ-Zo6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="2823"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UN6-pA-FzW">
+            <objects>
+                <viewController id="lC9-16-6nM" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="18_동영상앨범.png" id="eDL-Mb-gi6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4MY-on-N6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="2843"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8wc-mI-YaU">
+            <objects>
+                <viewController id="BAj-Gl-Imi" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12_사진수정.png" id="Sw9-aV-J1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PVD-JX-lr7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901" y="2117"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9lw-hO-nZm">
+            <objects>
+                <viewController id="iOY-4M-CUX" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13_사진올리기.png" id="D5c-LD-szk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQv-GI-nyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1329" y="2113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zvd-3v-K3y">
+            <objects>
+                <viewController id="w3F-59-zMa" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14_타임라인.png" id="mrt-OK-lg9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gWd-x0-xAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="2145"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="12R-Vf-w2V">
+            <objects>
+                <viewController id="OaJ-R3-BXT" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="08_마이페이지.png" id="D1N-8n-DIm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8g-t8-LbP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="1409"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DEc-tp-c5c">
+            <objects>
+                <viewController id="FHg-cF-GFk" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="09_설정.png" id="yuz-7f-YDI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOk-lp-VBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="1409"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="deJ-uV-HaW">
+            <objects>
+                <viewController id="JIG-ah-ekw" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_사진고르기.png" id="mcp-TK-p3l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Cn-5t-rLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="1453"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vhl-5i-o1j">
+            <objects>
+                <viewController id="7lD-nO-kMz" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_앨범만들기.png" id="E4m-S1-df3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qo-xk-xFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="715"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fnD-Ny-Q9h">
+            <objects>
+                <viewController id="DbR-vI-OEr" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05_코드입력.png" id="5ka-sl-LTe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Psw-eY-y63" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1284" y="719"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ah8-mp-R2g">
+            <objects>
+                <viewController id="BXm-PJ-fEZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BTo-k8-lkc"/>
+                        <viewControllerLayoutGuide type="bottom" id="5sW-R4-GyD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uEh-EJ-j5m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="06_코드대기중.png" translatesAutoresizingMaskIntoConstraints="NO" id="QCi-hM-7pH">
+                                <rect key="frame" x="-5" y="0.0" width="331" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCT-Kz-kWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668" y="737"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KQL-v4-uyd">
@@ -176,6 +517,33 @@
             <point key="canvasLocation" x="175" y="44"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="01_회원가입.png" width="720" height="1280"/>
+        <image name="02_회원가입.png" width="720" height="1280"/>
+        <image name="03_로그인.png" width="720" height="1280"/>
+        <image name="04_앨범만들기.png" width="720" height="1280"/>
+        <image name="05_코드입력.png" width="720" height="1280"/>
+        <image name="06_코드대기중.png" width="720" height="1280"/>
+        <image name="07_메인.png" width="720" height="1280"/>
+        <image name="08_마이페이지.png" width="720" height="1280"/>
+        <image name="09_설정.png" width="720" height="1280"/>
+        <image name="10_사진고르기.png" width="720" height="1280"/>
+        <image name="11_사진촬영.png" width="720" height="1280"/>
+        <image name="12_사진수정.png" width="720" height="1280"/>
+        <image name="13_사진올리기.png" width="720" height="1280"/>
+        <image name="14_타임라인.png" width="720" height="1280"/>
+        <image name="15_사진모아보기.png" width="720" height="1280"/>
+        <image name="16_사진확대보기.png" width="720" height="1280"/>
+        <image name="17_사진앨범.png" width="720" height="1280"/>
+        <image name="18_동영상앨범.png" width="720" height="1280"/>
+        <image name="19_기간설정.png" width="720" height="1280"/>
+        <image name="20_사진선택.png" width="720" height="1280"/>
+        <image name="21_영상저장.png" width="720" height="1280"/>
+        <image name="22_영상저장_음악선택.png" width="720" height="1280"/>
+        <image name="23_영상저장_시간선택.png" width="720" height="1280"/>
+        <image name="24_영상로딩중.png" width="720" height="1280"/>
+        <image name="25_완성및공유.png" width="720" height="1280"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
